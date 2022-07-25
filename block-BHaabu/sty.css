@@ -1,0 +1,165 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  font-family: "Karla", sans-serif;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(milky.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* custom style */
+header{
+  margin: 20px 0 50px 0;
+  text-align: center;
+  font-size: 40px;
+  color: antiquewhite;
+  font-weight: bolder;
+}
+.section-1{ display: flex;
+  justify-content: space-around;
+  
+}
+.box{
+  display: flex;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+  width: 500px;
+  height: 350px;
+  background-color: #FF0248;
+  align-items: center;
+  justify-content: center;
+}
+.box2{ background-image: linear-gradient(to right,rgb(48, 48, 48),  #FF0248 );}
+.box3{background-image: radial-gradient( #FF0248,  rgb(48, 48, 48));}
+
+.section-2{
+  margin: 140px 80px 80px 80px;
+}
+.box4{width: 100%;
+height: 500px;
+background:linear-gradient(rgba(204, 54, 54, 0.5),rgba(0, 0, 0, 0.5)), url(Iron.jpg) no-repeat;
+background-size: cover;
+}
